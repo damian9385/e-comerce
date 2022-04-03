@@ -1,0 +1,72 @@
+body {
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    margin: 0;
+}
+
+.cabezera {
+    align-items: center;
+    display: flex;
+    height: 115px;
+    padding: 2rem;
+    width: 1136px;
+}
+
+.buscador {
+    background: #f5f5f5;
+    border-radius: 20px;
+    display: flex;
+    height: 29px;
+    margin: 0 0 0 40px;
+    padding: 0 0 0 3%;
+    width: 393px;
+}
+
+.lupa {
+    color: #A2A2A2;
+    left: 52%;
+    position: absolute;
+    top: 7%;
+}
+
+.loguin {
+    color: #2A7AE4;
+    display: flex;
+    margin: 0 0 0 25rem;   
+}
+
+.banner {
+    position: relative;
+}
+
+.banner__imagen{
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    width: 69.7rem;
+    margin: 5rem 0 0 0;
+}
+
+
+.promociones {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;  
+    padding: 2rem;
+    width: 70rem;   
+}
+
+.promo {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
