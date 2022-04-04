@@ -10,8 +10,10 @@ body {
     align-items: center;
     display: flex;
     height: 115px;
+    justify-content: center;
     padding: 2rem;
     width: 1136px;
+    
 }
 
 .buscador {
@@ -26,9 +28,9 @@ body {
 
 .lupa {
     color: #A2A2A2;
-    left: 52%;
+    left: 55%;
     position: absolute;
-    top: 7%;
+    top: 13%;
 }
 
 .loguin {
@@ -43,29 +45,68 @@ body {
 
 .banner__imagen{
     width: 100%;
+    height: 100%;
 }
 
 .titulo {
+    align-items: center;
+    background: #E5E5E5;
     display: flex;
     justify-content: space-between;
-    width: 69.7rem;
-    margin: 5rem 0 0 0;
+    width: 100%;
 }
 
+.titulo__img {
+    display: flex;
+    position: relative;
+    padding: 4rem 0 0 0;
+    left: 5rem;
+}
+
+.ver__todo {
+    align-items: center;
+    background: none;
+    border-style: none;
+    display: flex;
+    color: #2A7AE4; 
+    left: 50.0rem;
+    position: relative;  
+}
+
+.flecha{
+    background: none;
+    border-style: none;
+    color: #2A7AE4; 
+    display: flex;
+    left: 50.4rem;
+    margin: 5px 0;
+    position: relative; 
+}
 
 .promociones {
     align-items: center;
+    background: #E5E5E5;
     display: flex;
-    justify-content: space-evenly;  
-    padding: 2rem;
-    width: 70rem;   
+    justify-content: space-evenly;
+    padding: 1.5rem 4rem 0rem 4rem;
+    width: 67rem;
 }
 
 .promo {
-    background: #fdfdfd;
+    background: #E5E5E5;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
+}
+
+.promo__imagen{
+    width: 10rem;
+    height: 10rem;
+}
+
+.producto {
+    background: none;
+    border-style: none;
+    color: #2A7AE4; 
 }
 
 
