@@ -28,9 +28,10 @@ body {
 
 .lupa {
     color: #A2A2A2;
+    display: flex;
     left: 55%;
     position: absolute;
-    top: 13%;
+    top: 7%;
 }
 
 .loguin {
@@ -110,5 +111,52 @@ body {
     color: #2A7AE4; 
 }
 
+.contactos {
+    align-items: center;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 64px 0; 
+    width: 100%;
+}
+
+.alurageek {
+    align-items: center;
+    display: flex;
+    padding: 0 0 5rem;
+    position: relative;
+    right: 16rem;
+    
+}
+
+.contactos__info{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    right: 9.8rem;
+}
+.contacto__info {
+    display: flex;
+    padding: 0 0 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 3.8rem;
+}
+
+.desarrollo {
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}   
+
+.desarrollador {
+    margin: 1rem 0 -1rem;
+}
 
 
