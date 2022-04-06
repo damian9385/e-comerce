@@ -35,9 +35,11 @@ body {
 }
 
 .loguin {
+    background: none;
+    border-style: none;
     color: #2A7AE4;
     display: flex;
-    margin: 0 0 0 25rem;   
+    margin: 0 0 0 25rem;
 }
 
 .banner {
@@ -49,7 +51,7 @@ body {
     height: 100%;
 }
 
-.titulo {
+.titulo, .titulo1, .titulo2 {
     align-items: center;
     background: #E5E5E5;
     display: flex;
@@ -57,14 +59,18 @@ body {
     width: 100%;
 }
 
-.titulo__img {
+.titulo__img, .titulo__img1, .titulo__img2 {
     display: flex;
     position: relative;
-    padding: 4rem 0 0 0;
-    left: 5rem;
+    padding: 4rem 0 0 9rem;
+    
 }
 
-.ver__todo {
+.consola, .diversos {
+    width: 9.2rem;
+}
+
+.ver__todo, .ver__todo1, .ver__todo2 {
     align-items: center;
     background: none;
     border-style: none;
@@ -74,7 +80,7 @@ body {
     position: relative;  
 }
 
-.flecha{
+.flecha, .flecha1, .flecha2{
     background: none;
     border-style: none;
     color: #2A7AE4; 
@@ -84,23 +90,22 @@ body {
     position: relative; 
 }
 
-.promociones {
+.promociones, .promociones2, .promociones3 {
     align-items: center;
     background: #E5E5E5;
     display: flex;
     justify-content: space-evenly;
-    padding: 1.5rem 4rem 0rem 4rem;
-    width: 67rem;
-    flex-wrap: wrap;
+    padding: 1.5rem 0;
+    width: 100%;
 }
 
-.promo {
+.promo, .promo2 {
     background: #E5E5E5;
     display: flex;
     flex-direction: column;   
 }
 
-.promo__imagen{
+.promo__imagen, .promo__imagen2{
     width: 10rem;
     height: 10rem;
 }
@@ -109,6 +114,7 @@ body {
     background: none;
     border-style: none;
     color: #2A7AE4; 
+    margin: 0 -5px;
 }
 
 .contactos {
@@ -124,7 +130,7 @@ body {
 .alurageek {
     align-items: center;
     display: flex;
-    padding: 0 0 5rem;
+    padding: 0 0 10rem;
     position: relative;
     right: 16rem;
     
@@ -141,6 +147,11 @@ body {
     padding: 0 0 1rem;
 }
 
+.contacto__link {
+    color: #464646;
+    text-decoration: none;
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -150,22 +161,24 @@ body {
 
 .parrafo, .nombre, .textarea {
     margin: 7px 0;
+    padding: 0 5px;
     position: relative;
     top: -1.5rem;
+    width: 247%;
+}
+
+.textarea{
+    margin: 10px 0 -15px;
 }
 
 .enviar {
+    align-items: center;
+    background: #2A7AE4;
+    border-style: none;
+    color: #ffffff;
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px;
-
-position: static;
-width: 144px;
-height: 51px;
-left: 0px;
-top: 189px;
+    justify-content: center;
+    height: 51px;
 }
 
 .desarrollo {
