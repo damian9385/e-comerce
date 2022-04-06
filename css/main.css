@@ -148,6 +148,26 @@ body {
     right: 3.8rem;
 }
 
+.parrafo, .nombre, .textarea {
+    margin: 7px 0;
+    position: relative;
+    top: -1.5rem;
+}
+
+.enviar {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+
+position: static;
+width: 144px;
+height: 51px;
+left: 0px;
+top: 189px;
+}
+
 .desarrollo {
     align-items: center;
     display: flex;
