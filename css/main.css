@@ -29,17 +29,18 @@ body {
 .lupa {
     color: #A2A2A2;
     display: flex;
-    left: 55%;
+    left: 51%;
     position: absolute;
-    top: 7%;
+    top: 6%;
 }
 
 .loguin {
     background: none;
-    border-style: none;
+    border-color: #2A7AE4;
     color: #2A7AE4;
     display: flex;
     margin: 0 0 0 25rem;
+    padding: 5px 40px 5px 40px;
 }
 
 .banner {
@@ -100,9 +101,14 @@ body {
 }
 
 .promo, .promo2 {
+    align-items: flex-start;
     background: #E5E5E5;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    margin: 0 -8.5rem 0;
+    position: relative; 
+    right: 0.5rem;
+     
 }
 
 .promo__imagen, .promo__imagen2{
