@@ -1,0 +1,130 @@
+.contactos {
+    align-items: center;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 64px 0; 
+    width: 100%;
+}
+
+.alurageek {
+    align-items: center;
+    display: flex;
+    padding: 0 0 10rem;
+    position: relative;
+    right: 16rem;
+    
+}
+
+.contactos__info{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    right: 9.8rem;
+}
+.contacto__info {
+    display: flex;
+    padding: 0 0 1rem;
+}
+
+.contacto__link {
+    color: #464646;
+    text-decoration: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 3.8rem;
+}
+
+.parrafo, .nombre, .textarea {
+    margin: 7px 0;
+    padding: 0 5px;
+    position: relative;
+    top: -1.5rem;
+    width: 247%;
+}
+
+.textarea{
+    margin: 10px 0 -15px;
+}
+
+.enviar {
+    align-items: center;
+    background: #2A7AE4;
+    border-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 51px;
+}
+
+.desarrollo {
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}   
+
+.desarrollador {
+    margin: 1rem 0 -1rem;
+}
+
+@media screen and (min-width: 768px){
+    .alurageek {
+        right: 3rem;
+    }
+    .contactos__info {
+        right: 13.5rem;
+        top: 3rem;
+    }
+    .form {
+        right: 7.5rem;
+    }
+    .nombre, .textarea {
+        width: 187%;
+    }
+    .enviar {
+        height: 2rem;
+        width: 8rem;
+    }
+}
+
+@media screen and (min-width: 360px){
+    .contactos {
+        flex-direction: column;
+        padding: 0;
+    }
+    .alurageek {
+        left: 0rem;
+        top: 2rem;
+    }
+    .contactos__info {
+        left: -0.1rem;
+        top: -7rem;
+    }
+    .info {
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    .form {
+        margin: 0 0 1rem;
+    }
+    .parrafo {
+        padding: 0;
+    margin: 0;
+    }
+    .nombre {
+        height: 10vh;
+    width: 149%;
+    }
+    .textarea {
+        height: 20vh;
+    width: 149%;
+    }
+}

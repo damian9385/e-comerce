@@ -1,0 +1,37 @@
+.iniciar__secion {
+    align-items: center;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    height: 473px;
+    text-align: center;
+    width: 100%;
+}
+
+.inicio__secion {
+    display: flex;
+    flex-direction: column;
+}
+
+.iniciar {
+    margin: 91px 0 25px;
+}
+
+.input {
+    border: none;
+    box-shadow: 0px 3px #c8c8c8;
+    display: flex;
+    height: 63px;
+    margin: 10px 0;
+    padding: 0 5px;
+    width: 30rem;
+}
+
+.boton {
+    background: #2A7AE4;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    height: 63px;
+    margin: 10px 0
+}

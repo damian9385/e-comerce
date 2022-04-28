@@ -1,0 +1,120 @@
+.cabezera {
+    align-items: center;
+    display: flex;
+    height: 115px;
+    justify-content: center;
+    padding: 2rem;
+    width: 1136px;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.buscador {
+    background: #f5f5f5;
+    border-radius: 20px;
+    display: flex;
+    height: 29px;
+    margin: 0 0 0 40px;
+    padding: 0 0 0 3%;
+    width: 393px;
+}
+
+.lupa {
+    color: #A2A2A2;
+    display: flex;
+    height: 19px;
+    left: -2rem;
+    position: relative;
+    top: 0.5rem;  
+}
+
+.div__login {
+    margin: 0 0 0 20rem;
+}
+
+.a__login {
+    text-decoration: none;
+}
+
+.btn__login {
+    background: none;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer;
+    display: flex;
+    padding: 5px 40px 5px 40px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+    .cabezera {
+        position: relative;
+        width: auto;
+        right: 25px;
+    }
+    .menu {
+        position: relative;
+        right: 242px;
+        align-items: center;
+    }
+    .buscador {
+        width: 272px;
+        left: 253px;
+        position: relative;
+    }
+    .lupa {
+        left: 220px;
+        top: 2px;
+    }
+    .menu {
+        position: relative;
+        right: 242px;
+        align-items: center;
+    }
+    .div__login {
+        margin: 0;
+        position: relative;
+        left: 57px;
+    }
+    
+}
+
+@media screen and (min-width: 360px){
+    .cabezera {
+        position: relative;
+        right: 2rem;
+        width: auto;
+    }
+    .vector {
+        height: 4vh;
+    }
+    .alura, .geek {
+        height: 2.5vh;
+    }
+    .buscador {
+        display: none;
+    }
+    .lupa {
+        left: 26.5rem;
+        top: 2px;
+    }
+    .menu {
+        position: relative;
+        right: 242px;
+        align-items: center;
+    }
+    .div__login {
+        margin: 0;
+        position: relative;
+        left: 57px;
+    }
+
+    .a__login{
+        position: relative;
+        right: 3rem;
+    }
+    
+}

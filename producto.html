@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Loguin</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/cabezera.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/contactos.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/producto.css'>
+   
+</head>
+<body>
+    <header class="cabezera">
+        <img class="vector" src="img/Vector.png" alt="dibujo jostick">
+        <img class="alura" src="img/Alura.png" alt="alura">
+        <img class="geek" src="img/Geek.png" alt="geek">
+        <div class="menu">
+            <input class="buscador" type="text" placeholder="¿Que deseas buscar?">
+            <img class="lupa" src="img/lupa.png" alt="lupa">
+        </div>
+        <div class="div__login">    
+            <a class="a__login" href="login.html"><button class="btn__login" type="button">Login</button></a>
+        </div>
+    </header>
+
+    <section class="nuevo__producto">
+        <h2 class="titulo__producto">Agregar nuevo producto</h2>
+        <div class="agregar__producto">
+            <input class="arrastrar__img">
+            <p class="o">O</p>
+            <button class="busque" type="button">busque en su computador</button> 
+        </div>
+        <div class="producto">
+             
+            <input class="nombre__producto" type="text" placeholder="Nombre del producto">
+            <input class="precio__producto" type="number" placeholder="Precio del producto">
+            <input class="descripcion__producto" type="text" placeholder="descripcion del producto">  
+            <button class="boton__agregar">Agregar producto</button>
+        </div>     
+    </section>
+
+    <section class="contactos">
+        
+        <div class="alurageek">
+        <img class="vector" src="img/Vector.png" alt="dibujo jostick">
+        <img class="alura" src="img/Alura.png" alt="alura">     
+        <img class="geek" src="img/Geek.png" alt="geek">
+        </div>
+        
+        <nav class="contactos__info">
+            <ul class="info">
+                <li class="contacto__info"><a class="contacto__link" href="#">Quienes somos</a></li>
+                <li class="contacto__info"><a class="contacto__link" href="#">Politica de privacidad</a></li>
+                <li class="contacto__info"><a class="contacto__link" href="#">Programa de fidelidad</a></li>
+                <li class="contacto__info"><a class="contacto__link" href="#">Nuestras tiendas</a></li>
+                <li class="contacto__info"><a class="contacto__link" href="#">Quiero ser franquiciado</a></li>
+                <li class="contacto__info"><a class="contacto__link" href="#">Anuncie aqui</a></li>
+            </ul>
+        </nav>
+
+        <form class="form">
+            
+                <p class="parrafo">Hable con nosotros</p>
+                <input class="nombre" id="nombre" type="text" name="Nombre" placeholder="nombre">
+                <textarea class="textarea" id="textarea" cols="5" rows="3" name="Mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <button class="enviar" type="submit">Enviar mensaje</button>
+            
+
+        </form>
+    </section>
+
+    <footer class="desarrollo">
+        
+            <p class="desarrollador">Desarrollado por Damian Ezequiel Miserantino</p>
+            <p class="año">2022</p>
+        
+    </footer>
+</body>    
+</html>
