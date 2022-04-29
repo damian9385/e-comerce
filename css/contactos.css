@@ -74,26 +74,6 @@
     margin: 1rem 0 -1rem;
 }
 
-@media screen and (min-width: 768px){
-    .alurageek {
-        right: 3rem;
-    }
-    .contactos__info {
-        right: 13.5rem;
-        top: 3rem;
-    }
-    .form {
-        right: 7.5rem;
-    }
-    .nombre, .textarea {
-        width: 187%;
-    }
-    .enviar {
-        height: 2rem;
-        width: 8rem;
-    }
-}
-
 @media screen and (min-width: 360px){
     .contactos {
         flex-direction: column;
@@ -128,3 +108,25 @@
     width: 149%;
     }
 }
+
+@media screen and (min-width: 768px){
+    .alurageek {
+        right: 3rem;
+    }
+    .contactos__info {
+        right: 13.5rem;
+        top: 3rem;
+    }
+    .form {
+        right: 7.5rem;
+    }
+    .nombre, .textarea {
+        width: 187%;
+    }
+    .enviar {
+        height: 2rem;
+        width: 8rem;
+    }
+}
+
+

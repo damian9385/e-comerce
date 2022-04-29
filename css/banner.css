@@ -44,15 +44,6 @@
     height: 3rem;
 }
 
-@media screen and (min-width: 768px){
-    .titulos__banner {
-        left: 52px;
-    }
-    .a__producto {
-        left: 52px;
-    }
-}
-
 @media screen and (min-width: 360px){
     .banner__imagen {
         height: 30vh;
@@ -80,3 +71,13 @@
         top: -10rem;
     }
 }
+
+@media screen and (min-width: 768px){
+    .titulos__banner {
+        left: 52px;
+    }
+    .a__producto {
+        left: 52px;
+    }
+}
+
