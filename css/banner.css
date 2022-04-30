@@ -46,28 +46,29 @@
 
 @media screen and (min-width: 360px){
     .banner__imagen {
-        height: 30vh;
+        height: 18vh;
     }
     .titulos__banner {
-        right: -32rem;
-        top: 5.5rem;
+        left: -16vh;
+        top: 9rem;
     }
     .h1__febrero {
-        font-size: 4vh;
+        font-size: 2vh;
         height: 8vh;
-        position: relative;
-        right: 7rem;
-        top: 4rem;
+        position: absolute;
+        left: 18vh;
+        width: 23vh;
     }
     .seleccionados {
-        font-size: 2.5vh;
-        position: relative;
-        right: 7rem;
-        top: 3rem;   
+        font-size: 1.5vh;
+        position: absolute;
+        left: 11.5rem;
+        top: 2rem;
+        width: 31vh;
     }
     .btn__consolas {
         position: relative;
-        right: 20vh;
+        right: 10.5vh;
         top: -10rem;
     }
 }
